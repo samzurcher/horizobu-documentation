@@ -1,0 +1,30 @@
+.page-header, .page-header small, .nav-tabs a {
+	color: #2BCCD9;
+}
+.tab-content {
+	background-color:#ffffff;
+	padding: 3em;
+}
+.tab-content img {
+	margin: 3em auto;
+}
+
+.tab-content .included-content {
+	width: 640px; 
+    height: 390px;
+    margin: 3em auto;
+}
+.tab-content p, blockquote {
+	font-size: 15px;
+}
+blockquote {
+	border-left-color: #3f5454;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover {
+	background-color:#ffffff;
+}
+
+.nav-tabs>li.active> a {
+	color: #333333;
+}
