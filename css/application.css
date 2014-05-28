@@ -1,3 +1,7 @@
+#content {
+	width: 800px;
+	margin: auto;
+}
 .page-header, .page-header small, .nav-tabs a {
 	color: #2BCCD9;
 }
@@ -10,6 +14,13 @@
 	margin: 3em auto;
 }
 
+.tab-content .thumbnail img {
+	margin: 0em;
+}
+.tab-content .thumbnail {
+	background-color: #ffffff;
+}
+
 .tab-content .included-content {
 	width: 640px; 
     height: 390px;
@@ -19,7 +30,7 @@
 	font-size: 15px;
 }
 blockquote {
-	border-left-color: #3f5454;
+	border-left: 0px solid;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover {
@@ -28,4 +39,8 @@ blockquote {
 
 .nav-tabs>li.active> a {
 	color: #333333;
+}
+
+.caption {
+	text-align: center;
 }
