@@ -44,3 +44,11 @@ blockquote {
 .caption {
 	text-align: center;
 }
+
+.dl-horizontal dt {
+	width: 20em;
+}
+
+.dl-horizontal dd {
+	margin-left: 21em;
+}
